@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+html{height:100%;}
+
+body {
+    background: rgb(162,159,139);
+    background: radial-gradient(circle, rgba(162,159,139,1) 0%, rgba(214,212,195,1) 0%, rgba(162,159,139,1) 100%);
+}
+
+
+div.background{
+    background-color:#55818D;
+    width: 380px;
+    height:570px;
+    position: center;
+    margin-top: 120px;
+    border-radius: 5%;
+    
+}
+input.screen {
+    width:344px;
+    height: 80px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing:3px;
+    font-size: 2.6rem;
+    text-align: right;
+}
+
+button {
+    width:80px;
+    height:80px;
+    background-color: #172027!important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem!important;
+    font-weight: bolder!important;
+}
+button:hover {
+    background-color: #283742!important;
+    border: 1px solid #283742!important;
+}
+button:active {
+    background-color: #475d6d!important;
+    border: 1px solid #475d6d!important;
+}
+
+button.equals {
+    background-color: #fa5f18!important;
+    border: 1px solid #fa5f18!important;
+}
+
+button.equals:hover {
+    background-color: #f7814a!important;
+    border: 1px solid #f7814a!important;
+}
+button.equals:active {
+    background-color: #f59b72!important;
+    border: 1px solid #f59b72!important;
+}
+button.clear {
+    color: rgb(236, 60, 60);
+}
+button.clear:hover{
+    color: rgb(250, 86, 86);
+}
+button.clear:focus{
+    color: rgb(250, 103, 103);
+}
+button.clear:active {
+    color: rgb(250, 103, 103);
+}
