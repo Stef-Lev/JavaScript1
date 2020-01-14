@@ -16,40 +16,42 @@
 <body>
     <div class="container text-center background">
         <div class="row justify-content-center">
-            <input class="form-control form-control-lg m-3 screen" type="text"
-                onclick="this.style.backgroundColor='black';this.style.color='white'"
-                onblur="this.style.backgroundColor='black';this.style.color='white'" maxlength="9">
+            <div class="screen m-3 rounded">
+                <div data-previous-operand class="previous-operand"></div>
+                <div data-current-operand class="current-operand"></div>
+            </div>
         </div>
 
         <div class="row justify-content-center">
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto clear">AC</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto"><i class="fas fa-square-root-alt"></i></button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto"><i class="fas fa-percent"></i></button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto"><i class="fas fa-divide"></i></button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto clear" data-all-clear>AC</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-delete><i
+                    class="fas fa-backspace"></i></button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-operation>÷</button>
         </div>
         <div class="row justify-content-center">
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">7</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">8</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">9</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto"><i class="fas fa-times"></i></button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>7</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>8</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>9</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-operation>×</button>
         </div>
         <div class="row justify-content-center">
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">4</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">5</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">6</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto"><i class="fas fa-minus"></i></button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>4</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>5</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>6</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-operation>-</button>
         </div>
         <div class="row justify-content-center">
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">1</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">2</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">3</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto"><i class="fas fa-plus"></i></button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>1</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>2</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>3</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-operation>+</button>
         </div>
         <div class="row justify-content-center">
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">0</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">00</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto">.</button>
-            <button type="button" class="btn btn-dark btn-lg m-1 p-auto equals"><i class="fas fa-equals"></i></button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>0</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>00</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto" data-number>.</button>
+            <button type="button" class="btn btn-dark btn-lg m-1 p-auto equals" data-equals><i
+                    class="fas fa-equals"></i></button>
         </div>
 
 
@@ -57,6 +59,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -66,6 +69,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
