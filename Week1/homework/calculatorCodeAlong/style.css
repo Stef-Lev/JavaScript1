@@ -12,7 +12,6 @@ body {
 
 div.background{
     background-color:#55818D;
-<<<<<<< HEAD
     width: 290px;
     min-height:500px;
     position: center;
@@ -23,28 +22,12 @@ div.background{
 }
 div.screen {
     width:300px;
-=======
-    width: 380px;
-    min-height:620px;
-    position: center;
-    margin-top: 120px;
-    border-radius: 5%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-div.screen {
-    width:344px;
->>>>>>> 3c2f67a1b7e7d5606cf6b90c8fbc3b7f31fd2bdd
     min-height: 120px;
     max-height: 160px;
     background-color: rgba(0,0,0,0.9);
     border: 1px solid black;
     font-family: 'Orbitron', sans-serif;
-<<<<<<< HEAD
     letter-spacing:2px;
-=======
-    letter-spacing:3px;
->>>>>>> 3c2f67a1b7e7d5606cf6b90c8fbc3b7f31fd2bdd
     text-align: right;
     display: flex;
     align-items: flex-end;
@@ -58,7 +41,6 @@ div.screen {
 }
 div.previous-operand {
     color: rgba(255,255,255,0.6);
-<<<<<<< HEAD
     font-size: 1.2rem;
 }
 div.current-operand {
@@ -72,21 +54,6 @@ button {
     background-color: #172027!important;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem!important;
-=======
-    font-size: 1.4rem;
-}
-div.current-operand {
-    color: white;
-    font-size: 2.4rem;
-}
-
-button {
-    width:80px;
-    height:80px;
-    background-color: #172027!important;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.8rem!important;
->>>>>>> 3c2f67a1b7e7d5606cf6b90c8fbc3b7f31fd2bdd
     font-weight: bolder!important;
 }
 button:hover {
@@ -113,11 +80,7 @@ button.equals:active {
 }
 button.clear {
     color: rgb(236, 60, 60);
-<<<<<<< HEAD
     width: 128px;
-=======
-    width: 168px;
->>>>>>> 3c2f67a1b7e7d5606cf6b90c8fbc3b7f31fd2bdd
 }
 button.clear:hover{
     color: rgb(250, 86, 86);
