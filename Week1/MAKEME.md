@@ -115,11 +115,11 @@ Follow the steps. Make sure that each step is written on the line after.
 
 **Exercise 8: Type checker**
 
-Write a program that checks the data types of two variables and logs to the console `SAME TYPE` if they are the same type. If they are different types log `Not the same...`.
+Write a program that checks the data types of two variables and logs to the console `SAME TYPE` if they are the same type. If they are different types log `NOT THE SAME TYPE`.
 
 1. Find out how to check the type of a variable
 1. Declare 4 variables: 2 must be `strings` and 2 must be `objects`
-2. Create 6 conditional statements, where for each you check if the data type of one variable is the same as the other and then console.log "SAME TYPE" if they are the same type and "NOT THE SAME" if they are not.
+2. Create 6 conditional statements, where for each you check if the data type of one variable is the same as the other and then console.log "SAME TYPE" if they are the same type and "NOT THE SAME TYPE" if they are not.
 
 Here's an incomplete example of how it could look:
 
