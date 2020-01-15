@@ -117,12 +117,9 @@ Follow the steps. Make sure that each step is written on the line after.
 
 Write a program that checks the data types of two variables and logs to the console `SAME TYPE` if they are the same type. If they are different types log `Not the same...`.
 
+1. Find out how to check the type of a variable
 1. Declare 4 variables: 2 must be `strings` and 2 must be `objects`
-2. Create 6 conditional statements, where for each you check if the data type of one variable is the same as the other
-3. Find out how to check the type of a variable
-4. Write 2 `console.log` statements to log the type of 2 variables, each with a different data type
-5. Now compare the types of your different variables with one another
-6. Log `Not the same...` when the types are different
+2. Create 6 conditional statements, where for each you check if the data type of one variable is the same as the other and then console.log "SAME TYPE" if they are the same type and "NOT THE SAME" if they are not.
 
 Here's an incomplete example of how it could look:
 
