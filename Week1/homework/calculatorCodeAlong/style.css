@@ -55,6 +55,7 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem!important;
     font-weight: bolder!important;
+    outline: none;
 }
 button:hover {
     background-color: #283742!important;
