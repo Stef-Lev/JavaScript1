@@ -12,4 +12,5 @@ function tellFortune() {
 
     return `You will be a ${randJob} in ${randLoc}, and married to ${randPartn} with ${randChild} kids.`
 }
+//Test
 tellFortune();
