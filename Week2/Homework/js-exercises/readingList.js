@@ -24,3 +24,7 @@ readList.forEach(x => {
     console.log(`${x.title} by ${x.author}`);
 
 })
+//Conditional statements
+readList.forEach(x => {
+    console.log(x.alreadyRead === true ? `You already read "${x.title}"` : `You still need to read "${x.title}"`)
+})
